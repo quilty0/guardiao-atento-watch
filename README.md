@@ -14,12 +14,20 @@ Aplicativo de monitoramento para smartwatch focado no acompanhamento de idosos e
 - Botão SOS com confirmação
 - Lista de contatos de emergência
 - Modal de confirmação para evitar acionamentos acidentais
+- Sistema automático de chamadas de emergência
 
 ### Detector de Quedas
-- Monitoramento automático a cada 15 segundos
-- Alerta com vibração
-- Contagem regressiva de 30 segundos antes de alertar contatos
-- Status visual do sensor (ativo/inativo)
+- Monitoramento automático a cada 40 segundos
+- Sistema de vibração inteligente para diferentes situações:
+  - Vibração curta para ativação do sensor
+  - Vibração tripla para alerta de queda
+  - Vibração longa para início da chamada
+  - Vibração dupla para finalização
+- Contagem regressiva de 20 segundos para resposta
+- Chamada automática de emergência se não houver resposta
+- Status visual do sensor com indicador de monitoramento
+- Interface com animações e feedback visual aprimorado
+- Envio automático de localização durante emergências
 
 ### Monitoramento do Sono
 - Registro de início e fim do sono
@@ -31,6 +39,7 @@ Aplicativo de monitoramento para smartwatch focado no acompanhamento de idosos e
 - Lista de medicamentos
 - Confirmação de medicamentos tomados
 - Interface intuitiva e fácil de usar
+- Modal de confirmação para cada medicamento
 
 ## 🛠️ Tecnologias
 
@@ -71,6 +80,8 @@ A interface foi desenvolvida pensando em:
 - Cores intuitivas para cada tipo de informação
 - Feedback visual claro para todas as ações
 - Animações suaves para melhor experiência
+- Ícones e emojis para melhor compreensão
+- Indicadores de status animados
 
 ## 🔒 Segurança
 
@@ -78,6 +89,8 @@ A interface foi desenvolvida pensando em:
 - Sistema de fallback para alertas de emergência
 - Monitoramento constante de quedas
 - Backup de contatos de emergência
+- Sistema automático de chamadas de emergência
+- Envio de localização em situações críticas
 
 ## 📱 Responsividade
 
